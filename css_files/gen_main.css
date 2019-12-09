@@ -2,6 +2,17 @@ body {
     background: #000;
 }
 
+.adaptive {
+    max-height: 150px;
+}
+
+.capture {
+    max-height: 150px;
+    height: auto;
+    width: auto;
+    max-width: 90%;
+}
+
 .bg-image {
     width: 100vw;
     height: 100vh;
@@ -52,9 +63,7 @@ body {
 
 .xg-header {
     background: #645394;
-    
     margin: 0 auto;
-
     color: #fff;
     text-align: center;
 }

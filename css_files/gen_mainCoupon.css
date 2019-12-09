@@ -1,6 +1,19 @@
+
 body {
     background: #000;
 }
+
+.adaptive {
+    max-height: 150px;
+}
+
+.capture {
+    max-height: 150px;
+    height: auto;
+    width: auto;
+    max-width: 90%;
+}
+
 
 .bg-image {
     width: 100vw;
@@ -46,15 +59,13 @@ body {
 
 .x-gen-container {
     min-height: 300px;
-    background: #111;
+    background: #FFFFFF;
     opacity: 0.95;
 }
 
 .xg-header {
-    background: #645394;
-    
+    background: #FFA600;
     margin: 0 auto;
-
     color: #fff;
     text-align: center;
 }
@@ -66,7 +77,7 @@ body {
 
 .xgh-bot {
     font-size: 110%;
-    background: #524083;
+    background: #FF5200;
     padding: 2px 0;
 }
 
@@ -78,26 +89,26 @@ body {
     margin: 0 auto;
 }
 
-.xgf-container .input-label {
-    font-size: 140%;
-    font-weight: bold;
+    .xgf-container .input-label {
+        font-size: 140%;
+        font-weight: bold;
+        color: #808080;
+    }
 
-}
-
-.xgf-container input[type=email] {
-    background: #000;
-    color: #fff;
-    outline: 0;
-    border: 1px solid #524083;
-    margin-top: 10px;
-    width: 100%;
-    font-size: 120%;
-    padding: 10px;
-    transition: 1s ease-in-out all;
-}
+    .xgf-container input[type=email] {
+        background: #FFF86B;
+        color: #000;
+        outline: 0;
+        border: 1px solid #B9E5E5;
+        margin-top: 10px;
+        width: 100%;
+        font-size: 120%;
+        padding: 10px;
+        transition: 1s ease-in-out all;
+    }
 
 .xgf-container input[type=email]:hover, .xgf-container input[type=email]:focus {
-    box-shadow: 0px 0px 5px #524083;
+    box-shadow: 0px 0px 5px #000000;
     transition: 1s ease-in-out all;
 }
 
@@ -145,8 +156,8 @@ body {
     width: 100%;
     font-size: 170%;
     padding: 15px 0;
-    background: #645394;
-    border-bottom: 5px solid #524083;
+    background: #FFA600;
+    border-bottom: 5px solid #FF5200;
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
@@ -155,11 +166,11 @@ body {
     font-weight: bold;
 }
 
-.xbbt-btn:hover {
-    border-color: #645394;
-    background: #524083;
-    transition: .7s ease-in-out all;
-}
+    .xbbt-btn:hover {
+        border-color: #FFA600;
+        background: #FF5200;
+        transition: .7s ease-in-out all;
+    }
 
 .xxxg-prog {
     height: 10px;
@@ -167,7 +178,7 @@ body {
 }
 
 .xxxg-prog-val {
-    background: #645394;
+    background: #FF5200;
     height: 100%;
     width: 0%;
     transition: 0.4s ease-in-out all;
@@ -179,9 +190,9 @@ body {
 
 .ppxs2-text {
     font-size: 120%;
-    color: #fff;
+    color: #808080;
     text-align: center;
-    padding-top: 25px ;
+    padding-top: 25px;
 }
 
 .ppxs2-cont {
@@ -192,18 +203,18 @@ body {
 .pckv {
     display: inline-block;
     padding: 4px 6px;
-    border: 1px solid #645394;
-    background: #000;
-    color: #645394;
+    border: 1px solid #B9E5E5;
+    background: #FFF86B;
+    color: #000;
     font-size: 110%;
 }
 
     .pckv.pc-k-2 {
-        color: #999;
+        color: #808080;
         display: inline-block;
         padding: 4px 6px;
-        border: 1px solid #645394;
-        background: #000;
+        border: 1px solid #B9E5E5;
+        background: #FFF86B;
         font-size: 110%;
     }
 
@@ -213,18 +224,17 @@ body {
     height: 40px;
     position: relative;
   }
-  
-  .cube1, .cube2 {
-    background-color: #645394;
+
+.cube1, .cube2 {
+    background-color: #FF5200;
     width: 15px;
     height: 15px;
     position: absolute;
     top: 0;
     left: 0;
-    
     -webkit-animation: sk-cubemove 1.8s infinite ease-in-out;
     animation: sk-cubemove 1.8s infinite ease-in-out;
-  }
+}
   
   .cube2 {
     -webkit-animation-delay: -0.9s;
@@ -257,12 +267,11 @@ body {
     }
   }
 
-  .xgs2-cons {
-      text-align: center;
-      color: #fff;
-      margin-top: 30px;
-
-    }
+.xgs2-cons {
+    text-align: center;
+    color: #808080;
+    margin-top: 30px;
+}
 
     .xgs2-cons h3 {
         display: inline-block;
@@ -274,25 +283,25 @@ body {
         margin: 0 auto;
     }
 
-    .xgs2c-p2 {
-        width: 50%;
-        margin: 0 auto;
-        font-size: 90%;
-        color: #524083;
-        margin-top: 20px;
-    }
+.xgs2c-p2 {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 90%;
+    color: #FF5200;
+    margin-top: 20px;
+}
 
-    .xgs2c-b1 {
-        font-size: 110%;
-        padding: 7px 9px;
-        border: 2px solid #645394;
-        color: #524083;
-        background: none;
-        border-radius: 8px;
-        margin-top: 40px;
-        cursor: pointer;
-        transition: 1s ease-in-out all;
-    }
+.xgs2c-b1 {
+    font-size: 110%;
+    padding: 7px 9px;
+    border: 2px solid #FFA600;
+    color: #fff;
+    background: #FF5200;
+    border-radius: 8px;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: 1s ease-in-out all;
+}
 
     .xgs2c-b1:hover {
         color: #fff;
