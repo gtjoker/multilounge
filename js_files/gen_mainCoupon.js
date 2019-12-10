@@ -36,11 +36,14 @@ function fillProgg1() {
 }
 
 function searchFK() {
-    if(fkCount > fkCurr) {
-        jQuery(".pc-k-1").text(makeid());
-        jQuery(".pc-k-2").text("XX");
-        jQuery(".pc-k-3").text(makeid());
-
+    if (fkCount > fkCurr) {
+        if (fkCurr != (fkCount - 1)) {
+            jQuery(".pc-k-1").text(makeid());
+            jQuery(".pc-k-2").text("XX");
+        } else {
+            jQuery(".pc-k-1").text("22");
+            jQuery(".pc-k-2").text("XX");
+        }
         fkCurr++;
         setTimeout(searchFK, 300);
     } else {
