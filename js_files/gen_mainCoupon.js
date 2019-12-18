@@ -7,7 +7,7 @@ function makeid() {
     var text = "";
     var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
   
-    for (var i = 0; i < 2; i++)
+    for (var i = 0; i < 8; i++)
         text += possible.charAt(Math.floor(Math.random() * possible.length));
 
     return text;
@@ -37,13 +37,9 @@ function fillProgg1() {
 
 function searchFK() {
     if (fkCount > fkCurr) {
-        if (fkCurr != (fkCount - 1)) {
-            jQuery(".pc-k-1").text(makeid());
-            jQuery(".pc-k-2").text("XX");
-        } else {
-            jQuery(".pc-k-1").text("22");
-            jQuery(".pc-k-2").text("XX");
-        }
+        jQuery(".pc-k-1").text(makeid());
+        //JQuery(".pc-k-2").text("XX");
+        
         fkCurr++;
         setTimeout(searchFK, 300);
     } else {
